@@ -32,7 +32,7 @@ Longevity of perennials
 Land availability (total arable land per season)
 
 ![Workflow](forecasting-plot/workflow.png)
-![Workflow](forecasting-plot/naive-model.PNG)
+![Workflow](forecasting-plot/naive model.PNG)
 
 As stated in the assumptions, the primary goal of farmers in this model is straightforward: maximize profit. Profit is defined as the unit revenue minus the unit cost, multiplied by the quantity produced. Naturally, farmers aim to maximize output, especially since they have limited control over input costs. However, this strategy can backfire—overproduction can lead to a drop in market prices, ultimately reducing total revenue. Farmers must therefore strike a careful balance in their crop allocation. When a particular crop becomes oversupplied, they must assess whether a larger market share can offset the loss in price, or if it's more prudent to shift to alternative crops. Mathematically, this trade-off defines the pricing mechanism behind crop selection. We'll dive deeper into the pricing structure later, but for now, let’s briefly outline the objective function: it comprises a profit maximization goal, a sum over all crops, revenue (price times quantity), and production costs.
 
