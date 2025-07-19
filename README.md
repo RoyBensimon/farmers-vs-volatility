@@ -31,4 +31,6 @@ Rotation rules for annual crops
 Longevity of perennials
 Land availability (total arable land per season)
 
+![Workflow](forecasting-plot/workflow.png)
+
 
